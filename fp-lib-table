@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name ATTiny85)(type KiCad)(uri /home/nullbort/KiCad/TreeOrnamentV2/ATTiny85.pretty)(options "")(descr ""))
+  (lib (name Battery_Holders)(type KiCad)(uri /home/nullbort/KiCad/library/Battery_Holders.pretty)(options "")(descr ""))
+  (lib (name Piezo)(type KiCad)(uri /home/nullbort/KiCad/library/Piezo.pretty)(options "")(descr ""))
+  (lib (name Buttons)(type KiCad)(uri /home/nullbort/KiCad/library/Buttons.pretty)(options "")(descr ""))
+  (lib (name face)(type KiCad)(uri "$(KIPRJMOD)/face.pretty")(options "")(descr ""))
+)
