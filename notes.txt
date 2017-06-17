@@ -1,0 +1,17 @@
+y=75
+x=52
+
+min width: 0.008
+min via dia: 0.027
+min via drill: 0.013
+
+clearance: 0.008
+track: ""
+via dia: 0.027
+via drill: 0.013
+uvia dia: 0.03
+uvia drill: 0.02
+diff pair: 0.008
+diff pair gap: 0.009
+
+zoom level: 1.54
