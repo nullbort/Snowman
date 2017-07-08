@@ -897,7 +897,7 @@
   (gr_line (start 146.576436 66.041083) (end 152.921436 66.041083) (layer Edge.Cuts) (width 0.15) (tstamp 593DF56E))
   (gr_arc (start 160.421436 75.436083) (end 157.246436 85.596083) (angle 122.4096183) (layer Edge.Cuts) (width 0.2) (tstamp 593DF553))
   (gr_arc (start 159.786436 104.011083) (end 157.246436 85.596083) (angle -174.1142031) (layer Edge.Cuts) (width 0.2))
-  (gr_text "15/06/2017\nbrd #03" (at 143.914436 102.907083 90) (layer B.SilkS)
+  (gr_text "15/06/2017\nbrd #03 rev1" (at 143.914436 102.907083 90) (layer B.SilkS)
     (effects (font (size 0.75 0.75) (thickness 0.125)) (justify mirror))
   )
   (gr_text "Designed by\nChris Ritchie" (at 175.410436 105.193083 90) (layer B.SilkS)
