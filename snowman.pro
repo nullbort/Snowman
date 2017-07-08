@@ -1,4 +1,4 @@
-update=Wed 07 Jun 2017 10:58:13 AM EDT
+update=Fri 07 Jul 2017 11:48:07 PM EDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -60,3 +60,4 @@ LibName28=contrib
 LibName29=valves
 LibName30=switches
 LibName31=piezo
+LibName32=/home/nullbort/KiCad/library/sw_spst

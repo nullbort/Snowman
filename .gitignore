@@ -6,3 +6,7 @@ Snowman\.zip
 *.png
 
 code
+
+*.kicad_pcb-bak
+
+*.bak
