@@ -4,4 +4,5 @@
   (lib (name Piezo)(type KiCad)(uri /home/nullbort/KiCad/library/Piezo.pretty)(options "")(descr ""))
   (lib (name Buttons)(type KiCad)(uri /home/nullbort/KiCad/library/Buttons.pretty)(options "")(descr ""))
   (lib (name face)(type KiCad)(uri "$(KIPRJMOD)/face.pretty")(options "")(descr ""))
+  (lib (name nose)(type KiCad)(uri "$(KIPRJMOD)/nose.pretty")(options "")(descr ""))
 )
