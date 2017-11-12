@@ -1,36 +1,4 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:switches
-LIBS:piezo
-LIBS:sw_spst
+EESchema Schematic File Version 4
 LIBS:snowman-cache
 EELAYER 26 0
 EELAYER END
@@ -47,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Battery_Cell BT1
+L device:Battery_Cell BT1
 U 1 1 593808F0
 P 1280 2483
 F 0 "BT1" H 1398 2579 50  0000 L CNN
@@ -59,7 +27,7 @@ F 4 "36-3002CT-ND" H 1280 2483 60  0001 C CNN "DigiKey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ATTINY85-20SU U1
+L atmel:ATTINY85-20SU U1
 U 1 1 59380980
 P 4039 2469
 F 0 "U1" H 4039 1952 50  0000 C CNN
@@ -71,7 +39,7 @@ F 4 "ATTINY85-20SU-ND" H 4039 2469 60  0001 C CNN "DigiKey"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L LED D1
+L device:LED D1
 U 1 1 59380BF5
 P 5539 2219
 F 0 "D1" H 5531 1964 50  0000 C CNN
@@ -83,7 +51,7 @@ F 4 "846-1190-ND" H 5539 2219 60  0001 C CNN "DigiKey"
 	-1   0    0    1   
 $EndComp
 $Comp
-L SW_SPST4 SW2
+L sw_spst:SW_SPST4 SW2
 U 1 1 59380E68
 P 6107 3447
 F 0 "SW2" H 6107 3682 50  0000 C CNN
@@ -95,7 +63,7 @@ F 4 "CKN9104CT-ND" H 6107 3447 60  0001 C CNN "DigiKey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW_SPST4 SW1
+L sw_spst:SW_SPST4 SW1
 U 1 1 59380F18
 P 6149 2941
 F 0 "SW1" H 6149 3176 50  0000 C CNN
@@ -107,7 +75,7 @@ F 4 "CKN9104CT-ND" H 6149 2941 60  0001 C CNN "DigiKey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW_SPST4 SW3
+L sw_spst:SW_SPST4 SW3
 U 1 1 59380F75
 P 6059 3937
 F 0 "SW3" H 6059 4172 50  0000 C CNN
@@ -119,7 +87,7 @@ F 4 "CKN9104CT-ND" H 6059 3937 60  0001 C CNN "DigiKey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1
+L device:R R1
 U 1 1 59381195
 P 5839 2219
 F 0 "R1" V 5632 2219 50  0000 C CNN
@@ -133,7 +101,7 @@ $EndComp
 Text Label 2077 2219 0    60   ~ 0
 VCC
 $Comp
-L PIEZO PIEZO1
+L piezo:PIEZO PIEZO1
 U 1 1 59382115
 P 6077 2319
 F 0 "PIEZO1" H 6155 2357 40  0000 L CNN
@@ -145,7 +113,7 @@ F 4 "490-4683-1-ND" H 6077 2319 60  0001 C CNN "DigiKey"
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR01
+L power:GND #PWR01
 U 1 1 59384465
 P 1280 2719
 F 0 "#PWR01" H 1280 2469 50  0001 C CNN
@@ -156,7 +124,7 @@ F 3 "" H 1280 2719 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR02
+L power:GND #PWR02
 U 1 1 593844F3
 P 2689 2719
 F 0 "#PWR02" H 2689 2469 50  0001 C CNN
@@ -167,7 +135,7 @@ F 3 "" H 2689 2719 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR03
+L power:GND #PWR03
 U 1 1 593845ED
 P 6059 2219
 F 0 "#PWR03" H 6059 1969 50  0001 C CNN
@@ -178,7 +146,7 @@ F 3 "" H 6059 2219 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR04
+L power:GND #PWR04
 U 1 1 59384742
 P 6297 2319
 F 0 "#PWR04" H 6297 2069 50  0001 C CNN
@@ -189,7 +157,7 @@ F 3 "" H 6297 2319 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR05
+L power:GND #PWR05
 U 1 1 5938480F
 P 6431 2941
 F 0 "#PWR05" H 6431 2691 50  0001 C CNN
@@ -200,7 +168,7 @@ F 3 "" H 6431 2941 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR06
+L power:GND #PWR06
 U 1 1 593848CA
 P 6398 3447
 F 0 "#PWR06" H 6398 3197 50  0001 C CNN
@@ -211,7 +179,7 @@ F 3 "" H 6398 3447 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR07
+L power:GND #PWR07
 U 1 1 59384973
 P 6344 3937
 F 0 "#PWR07" H 6344 3687 50  0001 C CNN
