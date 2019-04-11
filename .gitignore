@@ -3,6 +3,16 @@ GERBER/
 
 Snowman\.zip
 
+Images/
+
+*.txt
+
+*.zip
+
+*.dcm
+
+*.ods
+
 *.png
 
 code
